@@ -28,7 +28,7 @@
 }
 
 \new ChordNames \with {
-  \override BarLine #'bar-size = #4
+  \override BarLine #'bar-extent = #'(-2 . 2)
   \consists "Bar_engraver"
 }
 
@@ -117,4 +117,4 @@
   }
 }
 
-\version "2.12.3"  % necessary for upgrading to future LilyPond versions.
+\version "2.16"  % necessary for upgrading to future LilyPond versions.
